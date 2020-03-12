@@ -36,10 +36,11 @@ class Song
   end
   
   def self.artist_count
-    artist_count = {}
+    genre_hash = {}
     @@genres.each do |genre|
       genre_hash.include?(genre) ? genre_hash[genre] +=1 : genre_hash[genre] = 1  
     end
-    artist_count
+    genre_hash
+  
 end
 
