@@ -41,5 +41,6 @@ class Song
       artist_hash.include?(artist) ? artist_hash[artist] +=1 : artist_hash[artist] = 1  
     end
     artist_hash
+  end
 end
 
